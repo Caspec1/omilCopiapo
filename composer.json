@@ -1,0 +1,22 @@
+{
+    "name": "javiermirandavillegas/sitio-web-omil_poo",
+    "description": "Sitio Web OMIL Copiapó",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Javier Miranda",
+            "email": "mirandavillegasjavier@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
