@@ -23,7 +23,7 @@ class Router {
         // Arreglo de rutas protegidas
         $rutas_protegidas = ['/admin', '/vacantes/crear', '/vacantes/actualizar', '/vacantes/eliminar', '/funcionarios/crear', '/funcionarios/actualizar', 'funcionarios/eliminar' ];
 
-        $urlActual = $_SERVER['PATH_INFO'] ?? '/';
+        $urlActual = $_SERVER['REDIRECT_URL'] ?? '/';
         $metodo = $_SERVER['REQUEST_METHOD'];
 
         if($metodo === 'GET') {
