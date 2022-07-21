@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="prefetch" href="vacantes-laborales.php" as="document">
+    <link rel="prefetch" href="/vacantes" as="document">
     <link rel="preload" href="/build/css/app.css" as="style">
     <link rel="stylesheet" href="/build/css/app.css">
 </head>
